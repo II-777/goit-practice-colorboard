@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Yellowtail', cursive;
+  text-shadow: 0px 0px 7px white, 0px 0px 15px white, 0px 0px 40px rgb(255, 41, 201),  0px 0px 72px rgb(255, 41, 201);
+}
+
+.container {
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px;
+}
+
+.box {
+  background-color: rgb(91, 91, 91);
+  width: 250px;
+  height: 250px;
+  margin: 40px;
+  border-radius: 215px;
+  box-shadow: 0px 0px 15px white;
+  border: solid 2px #aaa;
+  transition-duration: 1.5s;
+}
+
+.box:nth-child(6n):hover {
+  background-color: cyan;
+  transition-duration: 0s;
+  box-shadow: 0px 0px 30px blue;
+}
+
+.box:nth-child(6n+1):hover {
+  background-color: green;
+  transition-duration: 0s;
+  box-shadow: 0px 0px 30px white;
+}
+
+.box:nth-child(6n+2):hover {
+  background-color: yellow ;
+  transition-duration: 0s;
+  box-shadow: 0px 0px 30px white;
+}
+
+.box:nth-child(6n+3):hover {
+  background-color: orange; 
+  transition-duration: 0s;
+  box-shadow: 0px 0px 30px white;
+}
+
+.box:nth-child(6n+4):hover {
+  background-color: red;
+  transition-duration: 0s;
+  box-shadow: 0px 0px 30px white;
+}
+
+.box:nth-child(6n+5):hover {
+  background-color: violet;
+  transition-duration: 0s;
+  box-shadow: 0px 0px 30px white;
+}
